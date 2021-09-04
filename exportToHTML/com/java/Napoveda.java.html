@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Napoveda.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Napoveda.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.java</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">Napoveda {</span>
+    <span class="s0">void </span><span class="s1">napovedaPro(</span><span class="s0">int </span><span class="s1">co) {</span>
+        <span class="s0">switch </span><span class="s1">(co) {</span>
+                <span class="s0">case </span><span class="s2">'1'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz if:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;if (podmienka) príkaz;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;else príkaz;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'2'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz switch:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;switch (výraz) {&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;   case konštanta:&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;      postupnosť príkazov&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;      break;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;   // ...&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;}&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'3'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz for:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.print(</span><span class="s2">&quot;for (inicializácia; podmienka; iterácia)&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot; príkaz;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'4'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz while:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;while (podmienka) príkaz;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'5'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz do-while:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;do {&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;   príkaz;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;} while (podmienka);&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'6'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz break:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;break; alebo break štítok&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+                <span class="s0">case </span><span class="s2">'7'</span><span class="s1">:</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;Príkaz continue:</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s1">System.out.println(</span><span class="s2">&quot;continue; alebo continue štítok;&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                    <span class="s0">break;</span>
+            <span class="s1">}</span>
+            <span class="s1">System.out.println()</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">void </span><span class="s1">zobrazNabidku() {</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot;Nápoveda pro:&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 1. if&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 2. switch&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 3. for&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 4. while&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 5. do-while&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 6. break&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot; 7. continue</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot;Vyberte jeden (k pre koniec): &quot;</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">boolean </span><span class="s1">jePlatny(</span><span class="s0">int </span><span class="s1">zn) {</span>
+        <span class="s0">if </span><span class="s1">(zn &lt; </span><span class="s2">'1' </span><span class="s1">| zn &gt; </span><span class="s2">'7' </span><span class="s1">&amp; zn != </span><span class="s2">'k'</span><span class="s1">) </span><span class="s0">return false;</span>
+        <span class="s0">else return true;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+
+<span class="s0">class </span><span class="s1">UkazkaTriedyNapoveda {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) </span><span class="s0">throws </span><span class="s1">java.io.IOException {</span>
+        <span class="s0">char </span><span class="s1">volba</span><span class="s0">, </span><span class="s1">ignoruj</span><span class="s0">;</span>
+        <span class="s1">Napoveda objNapoveda = </span><span class="s0">new </span><span class="s1">Napoveda()</span><span class="s0">;</span>
+
+        <span class="s0">for </span><span class="s1">(</span><span class="s0">;;</span><span class="s1">) {</span>
+            <span class="s0">do </span><span class="s1">{</span>
+                <span class="s1">objNapoveda.zobrazNabidku()</span><span class="s0">;</span>
+                <span class="s1">volba = (</span><span class="s0">char</span><span class="s1">) System.in.read()</span><span class="s0">;</span>
+
+                <span class="s0">do </span><span class="s1">{</span>
+                    <span class="s1">ignoruj = (</span><span class="s0">char</span><span class="s1">) System.in.read()</span><span class="s0">;</span>
+                <span class="s1">} </span><span class="s0">while </span><span class="s1">(ignoruj != </span><span class="s2">'</span><span class="s0">\n</span><span class="s2">'</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">} </span><span class="s0">while </span><span class="s1">( !objNapoveda.jePlatny(volba) )</span><span class="s0">;</span>
+
+            <span class="s0">if </span><span class="s1">(volba == </span><span class="s2">'k'</span><span class="s1">) </span><span class="s0">break;</span>
+            <span class="s1">System.out.println(</span><span class="s2">&quot;</span><span class="s0">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">objNapoveda.napovedaPro(volba)</span><span class="s0">;</span>
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
